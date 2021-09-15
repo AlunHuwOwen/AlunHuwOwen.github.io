@@ -1,3 +1,162 @@
-h1 {
-	margin-left: 100px;
+.text {
+	color: black;
+	text-align: justify;
+	font-size: calc(1vw + 0.85vh);;
 }
+
+
+.home {
+	padding:  0;
+}
+
+.titles {
+	width: 70vw;
+	max-width: 70%;
+	height: 10vh;
+	position: absolute;
+}
+
+.content {
+	width: 60vw;
+	max-width: 60%;
+	height: 60vh;
+	padding-top: 10vh;
+	padding-right: 10vw;
+	position: absolute;
+	margin: 1vw;
+}
+
+.button-area {
+	width: 10vw;
+	max-width: 10%;
+	height: 60vh;
+	padding-top: 10vh;
+	padding-left: 60vw;
+	position: absolute;
+	margin-top: 0;
+}
+
+#occupation {
+	font-family: Arial, "Times New Roman";
+	font-size: 4vh;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+#bannertext {
+	float: right;
+	font-size: 2vh;
+	padding-right: 0.5vw;
+}
+
+#welshflag {
+	height: 2vh;
+	float: right;
+	position: relative;
+	top: 0.5vh;
+}
+
+.hero-banner {
+	width: 100vw;
+	max-width: 100%;
+	height: 2vh;
+}
+
+.hero-area {
+	width: 100vw;
+	max-width:100%;
+	height: 100vh;
+}
+
+.hero-text {
+	width: 100vw;
+	max-width:100%;
+	text-align: center;
+	height: 98vh;
+}
+
+.about {
+	width: 70vw;
+	max-width: 70%;
+	height: 70vh;
+	background-color: white;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 15vh;
+	display: flex;
+}
+
+.chatbot {
+	width: 70vw;
+	max-width: 70%;
+	height: 70vh;
+	background-color: white;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 15vh;
+	margin-top: 2.5vh;
+	display: inline-flex;
+}
+
+.projects {
+	width: 70vw;
+	max-width: 70%;
+	height: 70vh;
+	background-color: white;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 15vh;
+	display: inline-flex;
+}
+
+.footer {
+	width: 70vw;
+	max-width: 70%;
+	height: 70vh;
+	background-color: white;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 15vh;
+	display: inline-flex;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(175deg ,rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("MynyddParys.jpg");
+	height: 100vh;
+	max-width: 100vw;
+	background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+h1 {
+	font-family: Arial, "Times New Roman";
+	font-size: 10vh;
+	font-weight: bold;
+	color: white;
+	padding-top: 38vh;
+	margin: 0px;
+}
+
+h3 {
+	font-family: Arial, "Times New Roman";
+	font-size: 4vh;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: Arial, "Times New Roman";
+	margin-left: 15vw;
+	color: black;
+}
+
