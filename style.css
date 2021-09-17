@@ -94,6 +94,18 @@
 	padding-right: 0.5vw;
 }
 
+#socials {
+	float: right;
+	font-size: 2vh;
+	padding-right: 1vw;
+}
+
+#banner-about {
+	float: left;
+	font-size: 2vh;
+	margin-left: 1vw;
+}
+
 #welshflag {
 	height: 2vh;
 	float: right;
