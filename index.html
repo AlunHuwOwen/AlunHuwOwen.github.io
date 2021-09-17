@@ -23,6 +23,7 @@ Options of English/Welsh
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!-- Maybe Change after implementing responsiveness -->
 	<title>Alun Owen - Personal Webpage</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -34,6 +35,9 @@ Options of English/Welsh
 	  <div class="hero-text">
 	  	<h1>Alun Owen</h1>
 	  	<span id="occupation">job</span>
+	  <div id="anchor0">
+	  	<p id="anch-point0"></p>
+	  </div>
 	  </div>
 	</div>
 
@@ -45,8 +49,13 @@ Options of English/Welsh
 
 	  Duis odio dolor, semper at rhoncus et, semper sed mauris. Etiam dignissim metus sit amet magna ultrices, ac porttitor turpis elementum. Cras pulvinar tincidunt nulla, nec interdum ante mattis id. Donec ac nibh orci. Aliquam sed suscipit nunc. Sed condimentum rhoncus ligula porttitor pretium. In tempor vestibulum placerat. Donec laoreet at diam eget molestie. Suspendisse potenti. Morbi viverra convallis feugiat. Suspendisse volutpat volutpat est vel mattis. Aenean non condimentum odio. In volutpat, sapien vitae aliquam vehicula, sapien lorem laoreet lectus, non gravida neque arcu id nunc. Phasellus efficitur odio sit amet mi condimentum, id blandit mauris placerat. Nunc vel dui pretium, tristique metus viverra, semper nunc.</p>
 	  <div class="button-area">
-	    <button class="home">Home</button>	
-	    <button class="down">Down</button>
+	  	<table class=buttons>
+          <tr><td><a href="index.html"><button class="home"><i class="fa fa-home"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point1"><button class="down"><i class="fa fa-arrow-down"></i></button></a></td></tr>
+		</table>
+	  </div>
+	  <div id="anchor1">
+	  	<p id="anch-point1"></p>
 	  </div>
 	</div>
 	
@@ -55,9 +64,14 @@ Options of English/Welsh
 	    <h2>Work in Progress</h2>
 	  </div>
 	  <div class="button-area">
-	    <button class="home">Home</button>
-	    <button class="up">Up</button>
-	    <button class="down">Down</button>
+	  	<table class=buttons>
+          <tr><td><a href="index.html"><button class="home"><i class="fa fa-home"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point0"><button class="up"><i class="fa fa-arrow-up"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point2"><button class="down"><i class="fa fa-arrow-down"></i></button></a></td></tr>
+		</table>
+	  </div>
+	  <div id="anchor2">
+	  	<p id="anch-point2"></p>
 	  </div>
 	</div>
 	
@@ -66,9 +80,14 @@ Options of English/Welsh
 	  	<h2>Projects</h2>
 	  </div>
 	  <div class="button-area">
-	  	<button class="home">Home</button>
-	    <button class="up">Up</button>
-	    <button class="down">Down</button>
+	  	<table class=buttons>
+          <tr><td><a href="index.html"><button class="home"><i class="fa fa-home"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point1"><button class="up"><i class="fa fa-arrow-up"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point3"><button class="down"><i class="fa fa-arrow-down"></i></button></a></td></tr>
+		</table>
+	  </div>
+	  <div id="anchor3">
+	  	<p id="anch-point3"></p>
 	  </div>
 	</div>
 	
@@ -77,8 +96,10 @@ Options of English/Welsh
 	  	<h2>Contact</h2>
 	  </div>
 	  <div class="button-area">
-	  	<button class="home">Home</button>
-	    <button class="up">Up</button>
+	  	<table class=buttons>
+          <tr><td><a href="index.html"><button class="home"><i class="fa fa-home"></i></button></a></td></tr>
+          <tr><td><a href="#anch-point2"><button class="up"><i class="fa fa-arrow-up"></i></button></a></td></tr>
+		</table>
 	  </div>
 	</div>
 	<script src="script.js"></script>
