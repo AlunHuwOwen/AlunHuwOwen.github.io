@@ -98,12 +98,14 @@
 	float: right;
 	font-size: 2vh;
 	padding-right: 1vw;
+	display: block;
 }
 
 #banner-about {
 	float: left;
 	font-size: 2vh;
 	margin-left: 1vw;
+	display: block;
 }
 
 #welshflag {
