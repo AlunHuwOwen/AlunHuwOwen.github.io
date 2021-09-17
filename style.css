@@ -1,9 +1,17 @@
 .text {
 	color: black;
 	text-align: justify;
-	font-size: calc(1vw + 0.85vh);;
+	font-size: calc(0.9vw + 0.82vh);
+	font-family: Arial;
 }
 
+.up {
+
+}
+
+.down {
+
+}
 
 .home {
 	padding:  0;
@@ -19,21 +27,21 @@
 .content {
 	width: 60vw;
 	max-width: 60%;
-	height: 60vh;
+	height: 55vh;
 	padding-top: 10vh;
-	padding-right: 10vw;
+	padding-right: 5vw;
 	position: absolute;
 	margin: 1vw;
 }
 
 .button-area {
-	width: 10vw;
-	max-width: 10%;
+	width: 7vw;
+	max-width: 7%;
 	height: 60vh;
 	padding-top: 10vh;
 	padding-left: 60vw;
 	position: absolute;
-	margin-top: 0;
+	margin: 1vw;
 }
 
 #occupation {
