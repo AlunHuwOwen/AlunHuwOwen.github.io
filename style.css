@@ -1,3 +1,20 @@
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 #anchor3 {
 	margin-top: 70vh;
 	display: block;
@@ -18,11 +35,75 @@
 	display: block;
 }
 
+#title1 {
+	font-size: calc(0.9vw + 0.82vh);
+}
+
+#detail-1 {
+	position: absolute;
+	color: white;
+	display: none;
+}
+
+.slide {
+	display: none;
+}
+
+.prev {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	display: block;
+	font-size: 4vh;
+	color: white;
+	z-index: 1;
+}
+
+.next {
+	position: absolute;
+	top: 50%;
+	right: 8%;
+	display: block;
+	font-size: 4vh;
+	color: white;
+	z-index: 1;
+}
+
+#img1 {
+	width: 92%;
+	max-width: 92%;
+	max-height: 86%;
+	height: 86%	;
+	position: absolute;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.7);
+}
+
+#img2 {
+	width: 92%;
+	max-width: 92%;
+	max-height: 86%;
+	height: 86%	;
+	position: absolute;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.6);
+}
+
+.projectname {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+}
+
 .text {
 	color: black;
 	text-align: justify;
-	font-size: calc(0.9vw + 0.82vh);
+	font-size: calc(0.8vw + 0.72vh);
 	font-family: Arial;
+	z-index: 1;
 }
 
 .up {
@@ -68,6 +149,7 @@
 	padding-right: 5vw;
 	position: absolute;
 	margin: 1vw;
+	display: inline;
 }
 
 .button-area {
@@ -219,4 +301,3 @@ h2 {
 	text-align: center;
 	padding-right: 0vw;
 }
-

@@ -25,6 +25,15 @@ Options of English/Welsh
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="jquery-3.6.0.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0QMJ574RZ7"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-0QMJ574RZ7');
+	</script>
 </head>
 <body>
 	<div class="hero-area">
@@ -51,8 +60,10 @@ Options of English/Welsh
 	  <div class="titles">
 	    <h2>About</h2>
 	  </div>
-	  <p class="text content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lacinia quam at feugiat. Proin sed nisl sed sem accumsan efficitur. Phasellus ultricies sapien odio, at cursus sapien posuere eu. Praesent tortor libero, placerat nec lacinia posuere, sodales vitae lorem. Mauris id interdum est. Etiam velit sapien, ullamcorper a orci a, sollicitudin fringilla odio. Quisque fermentum lorem in luctus aliquam. Nullam vitae lectus a justo volutpat pretium. Cras tempor dui odio, mattis auctor erat auctor nec. Sed eu augue magna. Pellentesque eu aliquam dui, suscipit semper neque. Nam volutpat, lacus vitae pellentesque cursus, libero sapien dictum odio, quis accumsan leo est quis enim. Pellentesque euismod sapien sit amet hendrerit tincidunt. Praesent posuere, massa nec volutpat molestie, nisi lacus sodales magna, cursus scelerisque quam nunc eget sem.
-
+	  <!--<h4 class="content">Mathematics -> Statistics -> Artificial Intelligence</h4>-->
+	  <p class="text content"><span id="title1">Mathematics <i class="fa fa-long-arrow-right"></i> Statistics <i class="fa fa-long-arrow-right"></i> Artificial Intelligence</span><br>
+	  I have just finished my MSc in Artificial Intelligence at the University of Edinburgh which consisted of Machine Learning, Deep Learning, Data Mining, Natural Language Processing and Vision Computing. Some of the projects completed over the course are mentioned <a href="#anch-point2">here</a>. The decision to pursue this post-graduate came from an introduction I had in my undergraduate. My undergraduate was in Mathematics, Operational Research and Statistics with the main focus on both Operational Research and Statistics in the Final Year.
+	  <br>
 	  Duis odio dolor, semper at rhoncus et, semper sed mauris. Etiam dignissim metus sit amet magna ultrices, ac porttitor turpis elementum. Cras pulvinar tincidunt nulla, nec interdum ante mattis id. Donec ac nibh orci. Aliquam sed suscipit nunc. Sed condimentum rhoncus ligula porttitor pretium. In tempor vestibulum placerat. Donec laoreet at diam eget molestie. Suspendisse potenti. Morbi viverra convallis feugiat. Suspendisse volutpat volutpat est vel mattis. Aenean non condimentum odio. In volutpat, sapien vitae aliquam vehicula, sapien lorem laoreet lectus, non gravida neque arcu id nunc. Phasellus efficitur odio sit amet mi condimentum, id blandit mauris placerat. Nunc vel dui pretium, tristique metus viverra, semper nunc.</p>
 	  <div class="button-area">
 	  	<table class=buttons>
@@ -68,6 +79,19 @@ Options of English/Welsh
 	<div class="chatbot">
 	  <div class="titles">
 	    <h2>Work in Progress</h2>
+	  </div>
+	  <div class="content">
+	  	<div class="slide fade">
+	  	<img id="img1" src="website_building.jpg"></img>
+	  	<h3 class="projectname">Personal Website</h3>
+	  	<p id="detail-1">This project basically</p>
+		</div>
+		<div class="slide fade">
+		<img id="img2" src="java.jpg"></img>
+		<h3 class="projectname">Write a Java Program</h3>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-left"></i></a>
+		<a class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-right"></i></a>
 	  </div>
 	  <div class="button-area">
 	  	<table class=buttons>
@@ -100,6 +124,9 @@ Options of English/Welsh
 	<div class="footer">
 	  <div class="titles">
 	  	<h2>Contact</h2>
+	  </div>
+	  <div class="content">
+	  	<p class="text">This section is reserved for a booking system to begin learning backend development.
 	  </div>
 	  <div class="button-area">
 	  	<table class=buttons>
