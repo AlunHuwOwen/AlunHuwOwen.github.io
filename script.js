@@ -36,6 +36,7 @@ Now look at slideshow animations...
 
 var slideInd = 1;
 showSlides(slideInd);
+showSlides2(slideInd);
 
 /* Prev/Next control mechanism */
 
@@ -45,6 +46,14 @@ function plusSlides(n) {
 
 function thisSlide(n) {
     showSlides(slideInd = n)
+}
+
+function plusSlides2(n) {
+    showSlides2(slideInd += n)
+}
+
+function thisSlide2(n) {
+    showSlides2(slideInd = n)
 }
 
 function showSlides(n) {
@@ -58,4 +67,57 @@ function showSlides(n) {
     slides[slideInd-1].style.display = "block";
 }
 
-var img1 = getElementById("img1")
+function showSlides2(n) {
+    var i;
+    var slides = document.getElementsByClassName("slide2")
+    if (n > slides.length) {slideInd = 1}
+    if (n < 1) {slideInd = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideInd-1].style.display = "block";
+}
+
+var img1 = document.getElementById("img1")
+
+$(document).ready(function(){
+  $(".slide").hover(function(){
+    if ($("#img1").css("display") == "block"){
+    $("#detail-1").css("display", "block");
+    $(".projectname").css("top", "25%");}
+    if ($("#img2").css("display") == "block"){
+    $("#detail-2").css("display", "block");
+    $(".projectname").css("top", "25%");}
+    if ($("#img3").css("display") == "block"){
+    $("#detail-3").css("display", "block");
+    $(".projectname").css("top", "25%");}
+    }, function(){
+    if ($("#img1").css("display") == "block"){
+    $("#detail-1").css("display", "none");
+    $(".projectname").css("top", "50%");}
+    if ($("#img2").css("display") == "block"){
+    $("#detail-2").css("display", "none");
+    $(".projectname").css("top", "50%");}
+    if ($("#img3").css("display") == "block"){
+    $("#detail-3").css("display", "none");
+    $(".projectname").css("top", "50%");}
+  });
+});
+
+$(document).ready(function(){
+  $(".slide2").hover(function(){
+    if ($("#img01").css("display") == "block"){
+    $("#detail-01").css("display", "block");
+    $(".projectname2").css("top", "25%");}
+    if ($("#img02").css("display") == "block"){
+    $("#detail-02").css("display", "block");
+    $(".projectname2").css("top", "25%");}
+    }, function(){
+    if ($("#img01").css("display") == "block"){
+    $("#detail-01").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+    if ($("#img02").css("display") == "block"){
+    $("#detail-02").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+  });
+});
