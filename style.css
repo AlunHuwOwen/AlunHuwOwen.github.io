@@ -139,7 +139,7 @@
 }
 
 #priority-1 {
-	font-size: calc(8px + 0.60vw);
+	font-size: calc(8px + 1.0vw);
 	position: absolute;
 	color: white;
 	text-align: center;
@@ -168,7 +168,7 @@
 }
 
 #priority-2 {
-	font-size: calc(8px + 0.60vw);
+	font-size: calc(8px + 1.0vw);
 	position: absolute;
 	color: white;
 	text-align: center;
@@ -196,7 +196,7 @@
 }
 
 #priority-3 {
-	font-size: calc(8px + 0.60vw);
+	font-size: calc(8px + 1.0vw);
 	position: absolute;
 	color: white;
 	text-align: center;
@@ -224,7 +224,7 @@
 }
 
 #priority-4 {
-	font-size: calc(8px + 0.60vw);
+	font-size: calc(8px + 1.0vw);
 	position: absolute;
 	color: white;
 	text-align: center;
@@ -436,7 +436,7 @@ ul {
 	z-index: 2;
 	margin-right: 10%;
 	margin-left: 10%;
-	font-size: calc(10px + 0.60vw);
+	font-size: calc(10px + 1.4vw);
 }
 
 .projectname2 {
@@ -447,7 +447,7 @@ ul {
 	z-index: 2;
 	margin-right: 10%;
 	margin-left: 10%;
-	font-size: calc(10px + 0.60vw);
+	font-size: calc(10px + 1.4vw);
 }
 
 .text {
