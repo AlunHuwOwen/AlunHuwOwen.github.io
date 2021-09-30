@@ -39,12 +39,12 @@
 	width: 100%;
 	max-width: 100%;
 	max-height: 86%;
-	height: 86%;
+	height: 100%;
 	position: absolute;
 	object-fit: cover;
 	/*top: 50%;
 	transform: translateY(-50%);*/
-	filter: brightness(0.7);
+	filter: brightness(0.6) blur(5px);
 	z-index: 2;
 }
 
@@ -52,24 +52,78 @@
 	width: 100%;
 	max-width: 100%;
 	max-height: 86%;
-	height: 86%	;
+	height: 88%	;
 	position: absolute;
 	object-fit: cover;
 	/*top: 50%;
 	transform: translateY(-50%);*/
-	filter: brightness(0.6);
+	filter: brightness(0.5) blur(5px);
+	z-index: 2;
+}
+
+#img03 {
+	width: 100%;
+	max-width: 100%;
+	max-height: 86%;
+	height: 88%	;
+	position: absolute;
+	object-fit: cover;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.6) blur(5px);
+	z-index: 2;
+}
+
+#img04 {
+	width: 100%;
+	max-width: 100%;
+	max-height: 86%;
+	height: 88%	;
+	position: absolute;
+	object-fit: cover;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.6) blur(5px);
+	z-index: 2;
+}
+
+#img05 {
+	width: 100%;
+	max-width: 100%;
+	max-height: 86%;
+	height: 88%	;
+	position: absolute;
+	object-fit: cover;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.4) blur(5px);
+	z-index: 2;
+}
+
+#img06 {
+	width: 100%;
+	max-width: 100%;
+	max-height: 86%;
+	height: 88%	;
+	position: absolute;
+	object-fit: cover;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.3) blur(5px);
 	z-index: 2;
 }
 
 #title1 {
-	font-size: calc(0.9vw + 0.82vh);
+	font-size: calc(8px + 0.60vw);
 	text-align: center;
 	width: 100%;
+	font-family: Arial;
 }
 
 .centering {
+	text-align: center;
 	display: inline-block;
-	width: 100%;
+	width: 60wh - 8vh;
 }
 
 .green {
@@ -84,20 +138,47 @@
 	color: red;
 }
 
-.priority {
+#priority-1 {
 	font-size: 3vh;
+	position: absolute;
+	color: white;
+	text-align: center;
+	display: none;
+	font-family: Arial;
+	top: 25%;
+	z-index: 2;
+	max-width: 60wh - 8vh;
+	width: 100%;
+	margin-top: 2%;
 }
 
 
 #detail-1 {
 	position: absolute;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	display: none;
 	font-family: Arial;
 	top: 30%;
 	z-index: 2;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	font-size: calc(6px + 0.60vw);
+}
+
+#priority-2 {
+	font-size: 3vh;
+	position: absolute;
+	color: white;
+	text-align: center;
+	display: none;
+	font-family: Arial;
+	top: 25%;
+	z-index: 2;
+	max-width: 60wh - 8vh;
 	width: 100%;
+	margin-top: 2%;
 }
 
 #detail-2 {
@@ -108,7 +189,24 @@
 	font-family: Arial;
 	top: 30%;
 	z-index: 2;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	font-size: calc(6px + 0.60vw);
+}
+
+#priority-3 {
+	font-size: 3vh;
+	position: absolute;
+	color: white;
+	text-align: center;
+	display: none;
+	font-family: Arial;
+	top: 25%;
+	z-index: 2;
+	max-width: 60wh - 8vh;
 	width: 100%;
+	margin-top: 2%;
 }
 
 #detail-3 {
@@ -119,17 +217,135 @@
 	font-family: Arial;
 	top: 30%;
 	z-index: 2;
-	width: 100%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	font-size: calc(6px + 0.60vw);
 }
 
-#detail-01 {
+#priority-4 {
+	font-size: 3vh;
 	position: absolute;
 	color: white;
 	text-align: center;
 	display: none;
 	font-family: Arial;
-	top: 35%;
+	top: 25%;
+	z-index: 2;
+	max-width: 60wh - 8vh;
 	width: 100%;
+	margin-top: 2%;
+}
+
+#detail-4 {
+	position: absolute;
+	color: white;
+	text-align: center;
+	display: none;
+	font-family: Arial;
+	top: 30%;
+	z-index: 2;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-01 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 30%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-02 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 35%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-03 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 35%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-04 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 35%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-05 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 35%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+#detail-06 {
+	position: absolute;
+	color: white;
+	text-align: justify;
+	display: none;
+	font-family: Arial;
+	top: 35%;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	width: 60wh - 8vh;
+	z-index: 2;
+	font-size: calc(6px + 0.60vw);
+}
+
+ul {
+	position: relative;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+	top: 35%;
+	margin-left: 4vh;
+	margin-right: 4vh;
+	width: 60wh - 8vh;
 	z-index: 2;
 }
 
@@ -169,7 +385,7 @@
 	position: absolute;
 	object-fit: cover;
 	/*transform: translateX(-50%);*/
-	filter: brightness(0.7);
+	filter: brightness(0.7) blur(5px);
 	z-index: 2;
 }
 
@@ -182,7 +398,7 @@
 	object-fit: cover;
 	/*top: 50%;
 	transform: translateY(-50%);*/
-	filter: brightness(0.4);
+	filter: brightness(0.4) blur(5px);
 	z-index: 2;
 }
 
@@ -195,7 +411,20 @@
 	object-fit: cover;
 	/*top: 50%;
 	transform: translateY(-50%);*/
-	filter: brightness(0.4);
+	filter: brightness(0.4) blur(5px);
+	z-index: 2;
+}
+
+#img4 {
+	width: 100%;
+	max-width: 100%;
+	max-height: 86%;
+	height: 86%	;
+	position: absolute;
+	object-fit: cover;
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	filter: brightness(0.4) blur(5px);
 	z-index: 2;
 }
 
@@ -211,13 +440,15 @@
 	position: absolute;
 	top: 50%;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 	z-index: 2;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .text {
 	color: black;
-	font-size: calc(0.8vw + 0.72vh);
+	font-size: calc(6px + 0.60vw);
 	font-family: Arial;
 	text-align: justify;
 	z-index: 1;
@@ -406,7 +637,7 @@ h1 {
 
 h3 {
 	font-family: Arial, "Times New Roman";
-	font-size: 4vh;
+	font-size: 3vh;
 	color: white;
 	margin: 0;
 	padding: 0;
@@ -418,3 +649,4 @@ h2 {
 	text-align: center;
 	padding-right: 0vw;
 }
+

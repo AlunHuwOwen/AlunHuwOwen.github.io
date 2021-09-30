@@ -84,22 +84,36 @@ $(document).ready(function(){
   $(".slide").hover(function(){
     if ($("#img1").css("display") == "block"){
     $("#detail-1").css("display", "block");
-    $(".projectname").css("top", "25%");}
+    $("#priority-1").css("display", "block");
+    $(".projectname").css("top", "20%");}
     if ($("#img2").css("display") == "block"){
     $("#detail-2").css("display", "block");
-    $(".projectname").css("top", "25%");}
+    $("#priority-2").css("display", "block");
+    $(".projectname").css("top", "20%");}
     if ($("#img3").css("display") == "block"){
     $("#detail-3").css("display", "block");
-    $(".projectname").css("top", "25%");}
+    $("#priority-3").css("display", "block");
+    $(".projectname").css("top", "20%");}
+    if ($("#img4").css("display") == "block"){
+    $("#detail-4").css("display", "block");
+    $("#priority-4").css("display", "block");
+    $(".projectname").css("top", "20%");}
     }, function(){
     if ($("#img1").css("display") == "block"){
     $("#detail-1").css("display", "none");
+    $("#priority-1").css("display", "none");
     $(".projectname").css("top", "50%");}
     if ($("#img2").css("display") == "block"){
     $("#detail-2").css("display", "none");
+    $("#priority-2").css("display", "none");
     $(".projectname").css("top", "50%");}
     if ($("#img3").css("display") == "block"){
     $("#detail-3").css("display", "none");
+    $("#priority-3").css("display", "none");
+    $(".projectname").css("top", "50%");}
+    if ($("#img4").css("display") == "block"){
+    $("#detail-4").css("display", "none");
+    $("#priority-4").css("display", "none");
     $(".projectname").css("top", "50%");}
   });
 });
@@ -108,16 +122,40 @@ $(document).ready(function(){
   $(".slide2").hover(function(){
     if ($("#img01").css("display") == "block"){
     $("#detail-01").css("display", "block");
-    $(".projectname2").css("top", "25%");}
+    $(".projectname2").css("top", "20%");}
     if ($("#img02").css("display") == "block"){
     $("#detail-02").css("display", "block");
-    $(".projectname2").css("top", "25%");}
+    $(".projectname2").css("top", "20%");}
+    if ($("#img03").css("display") == "block"){
+    $("#detail-03").css("display", "block");
+    $(".projectname2").css("top", "20%");}
+    if ($("#img04").css("display") == "block"){
+    $("#detail-04").css("display", "block");
+    $(".projectname2").css("top", "20%");}
+    if ($("#img05").css("display") == "block"){
+    $("#detail-05").css("display", "block");
+    $(".projectname2").css("top", "20%");}
+    if ($("#img06").css("display") == "block"){
+    $("#detail-06").css("display", "block");
+    $(".projectname2").css("top", "20%");}
     }, function(){
     if ($("#img01").css("display") == "block"){
     $("#detail-01").css("display", "none");
     $(".projectname2").css("top", "50%");}
     if ($("#img02").css("display") == "block"){
     $("#detail-02").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+    if ($("#img03").css("display") == "block"){
+    $("#detail-03").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+    if ($("#img04").css("display") == "block"){
+    $("#detail-04").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+    if ($("#img05").css("display") == "block"){
+    $("#detail-05").css("display", "none");
+    $(".projectname2").css("top", "50%");}
+    if ($("#img06").css("display") == "block"){
+    $("#detail-06").css("display", "none");
     $(".projectname2").css("top", "50%");}
   });
 });
