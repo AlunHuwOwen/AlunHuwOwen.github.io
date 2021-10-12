@@ -1,3 +1,19 @@
+var browser = {
+  ff: window.globalStorage,
+  ie: document.all && !window.opera,
+  ie6: !window.XMLHttpRequest,
+  ie7: document.all && window.XMLHttpRequest && !XDomainRequest && !window.opera,
+  ie8: document.documentMode==8,
+  opera: Boolean(window.opera),
+  chrome: Boolean(window.chrome),
+  safari: window.getComputedStyle && !window.globalStorage && !window.opera
+}
+
+if(browser.chrome) {
+} else {
+    alert("Browser not currently supported")
+}
+
 var options = [
     "Programmer", "Freelancer", "Mathematics, Operational Research and Statistics Graduate", "Artificial Intelligence Post-Graduate"
 ];
@@ -159,3 +175,4 @@ $(document).ready(function(){
     $(".projectname2").css("top", "50%");}
   });
 });
+
